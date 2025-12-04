@@ -1,5 +1,5 @@
 /* Auto typing love letter */
-const text = "3 John 1:2 - Dear friend, I am pray that you may prosper in all things and be in health, just as your soul prospers. ❤️";
+const text = "3 John 1:2 - Dear friend, I am praying that you may prosper in all things and be in health, just as your soul prospers. ❤️";
 
 let index = 0;
 function typeText() {
