@@ -60,9 +60,8 @@ body {
     border-radius: 12px;
 }
 
-/* Gift boxes */
 .gift-image {
-    width: 95%;
+    width: 100%;
     max-width: 350px;
     height: 350px;
     border-radius: 12px;
@@ -70,10 +69,15 @@ body {
     margin: 20px auto;
     background-size: cover;
     background-position: center;
-    transition: 0.4s ease-in-out;
-    cursor: pointer;
-    background-image: url(images/gift-cover.jpg);
 }
+
+/* Smaller height on mobile */
+@media (max-width: 576px) {
+    .gift-image {
+        height: 250px;
+    }
+}
+
 
 /* Mobile-friendly height */
 @media (max-width: 600px) {
